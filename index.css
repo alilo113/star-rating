@@ -1,0 +1,9 @@
+.star {
+    font-size: 5em; 
+    cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+    color: #ffcc00;
+}
