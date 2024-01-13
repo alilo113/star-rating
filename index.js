@@ -9,10 +9,5 @@ Array.from(stars).forEach((star, index) => {
             currentRating = index + 1;
             console.log(currentRating);
         }
-        else if(currentRating >= 5) {
-            currentRating -= 1;
-            star.classList.remove("active");
-            console.log(currentRating);
-        }
     });
-});
+}); 
